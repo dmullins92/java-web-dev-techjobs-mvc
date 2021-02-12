@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org/">
+<html xmlns:th="https://www.thymeleaf.org/">
 <head th:replace="fragments :: head">
 </head>
 <body>
@@ -37,6 +37,7 @@
     <hr />
 
     <!-- TODO #4 - Loop over the search results to display all job fields. -->
+    <table th:replace="fragments :: search-results"></table>
 
 </div>
 
