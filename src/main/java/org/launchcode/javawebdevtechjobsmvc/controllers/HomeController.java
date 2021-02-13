@@ -13,7 +13,7 @@ import java.util.HashMap;
 public class HomeController extends TechJobsController {
 
     @RequestMapping(value = "")
-    public String index(Model model) {
+    public String index() {
         return "index";
     }
 

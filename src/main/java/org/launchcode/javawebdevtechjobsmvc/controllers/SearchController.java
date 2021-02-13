@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class SearchController extends TechJobsController {
 
     @RequestMapping(value = "")
-    public String search(Model model) {
+    public String search() {
         return "search";
     }
 
